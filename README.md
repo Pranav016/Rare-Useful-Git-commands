@@ -11,7 +11,7 @@
 
 - `git revert <hash code>`- helps to roll back to a previous commit by creating a new commit for it. Doesn't removes those commits from the `log` like `git reset` does.
 
-- `git reflog`- this can be useful to bring back deleted commands. Use `git reset <hash code of lost commit from reflog>` to bring back rolled changes. 
+- `git reflog`- this can be useful to bring back deleted commits/files/changes. Use `git reset <hash code of lost commit from reflog>` to bring back rolled changes. 
 
 ## Moving commited changes to a new branch-
 - - Use `git checkout -b new-feature`
