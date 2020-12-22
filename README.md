@@ -1,7 +1,7 @@
 # Git commands
 - `git restore .` - restores the files to the previous commit/ undos all the local changes that haven't been commited.
 
-- `git restore index.html` - restores only that particular file to the recent commit/ un do's all the local/uncommited changes for that file.
+- `git restore index.html` - restores only that particular file to the recent commit/ undos all the local/uncommited changes for that file.
 
 - `git reset --hard <hash code of the commit>` - removes commits and goes back to the commit for that hash code
 
