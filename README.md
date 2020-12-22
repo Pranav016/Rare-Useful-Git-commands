@@ -14,5 +14,5 @@
 - `git reflog`- this can be useful to bring back deleted commands. Use `git reset <hash code of lost commit from reflog>` to bring back rolled changes. 
 
 ## Moving commited changes to a new branch-
-- - Use `git branch new-feature`
+- - Use `git checkout -b new-feature`
 - - Then roll back commits on master using `git reset HEAD~1 --hard`-> (this command will roll back 1 commit)
