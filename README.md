@@ -21,4 +21,4 @@
 - - `git checkout feature-branch`
 - - `git cherry-pick <hash code of that commit on master>`
 - - `git checkout master`
-- - `git reset HEAD~1 --hard` (rolls back 1 commit, increase for more)
+- - `git reset HEAD~1 --hard` (rolls back 1 commit)
